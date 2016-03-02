@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031DB4FB1C7BF5C6004CB452 /* TodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031DB4FA1C7BF5C6004CB452 /* TodayCell.swift */; };
+		034F90F41C819C4900363C76 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F90F31C819C4900363C76 /* Define.swift */; };
+		0359BDE11C52308000172352 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0359BDE01C52308000172352 /* Alamofire.framework */; };
+		0368D7EF1C7D5805002D2CCB /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0368D7EE1C7D5805002D2CCB /* CategoryCell.swift */; };
+		0369A14A1C5206C900373A74 /* PictrueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369A1491C5206C900373A74 /* PictrueViewController.swift */; };
+		038F2BCC1C5769F9002DA6DF /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038F2BCB1C5769F9002DA6DF /* CategoryModel.swift */; };
+		03D0E49A1C58829000B1D0AE /* FeatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D0E4991C58829000B1D0AE /* FeatureModel.swift */; };
+		03D0E49C1C58845C00B1D0AE /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D0E49B1C58845C00B1D0AE /* MainCell.swift */; };
+		03E658ED1C7717AA001C0CFA /* FeaturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E658E91C7717AA001C0CFA /* FeaturesController.swift */; };
+		03E658EF1C7717AA001C0CFA /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E658EB1C7717AA001C0CFA /* CategoryController.swift */; };
+		03E658F01C7717AA001C0CFA /* TodayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E658EC1C7717AA001C0CFA /* TodayController.swift */; };
+		03E658F21C7718C0001C0CFA /* PictrueListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E658F11C7718C0001C0CFA /* PictrueListModel.swift */; };
+		03FCE30B1C4F39D9009A7704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCE30A1C4F39D9009A7704 /* AppDelegate.swift */; };
+		03FCE3121C4F39D9009A7704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FCE3111C4F39D9009A7704 /* Assets.xcassets */; };
+		03FCE3151C4F39D9009A7704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FCE3131C4F39D9009A7704 /* LaunchScreen.storyboard */; };
+		03FCE3201C4F39D9009A7704 /* MyWallpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCE31F1C4F39D9009A7704 /* MyWallpaperTests.swift */; };
+		03FCE32B1C4F39DA009A7704 /* MyWallpaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCE32A1C4F39DA009A7704 /* MyWallpaperUITests.swift */; };
+		ADA579D144D67361F846F0B9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A33C3986917DB5D30457A12 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03FCE31C1C4F39D9009A7704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FCE2FF1C4F39D9009A7704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03FCE3061C4F39D9009A7704;
+			remoteInfo = MyWallpaper;
+		};
+		03FCE3271C4F39DA009A7704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FCE2FF1C4F39D9009A7704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03FCE3061C4F39D9009A7704;
+			remoteInfo = MyWallpaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0359BCB51C5223D000172352 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		031DB4FA1C7BF5C6004CB452 /* TodayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayCell.swift; sourceTree = "<group>"; };
+		034F90F31C819C4900363C76 /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		0359BDE01C52308000172352 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		0368D7EE1C7D5805002D2CCB /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		0369A1491C5206C900373A74 /* PictrueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictrueViewController.swift; sourceTree = "<group>"; };
+		038F2BCB1C5769F9002DA6DF /* CategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		03D0E4991C58829000B1D0AE /* FeatureModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureModel.swift; sourceTree = "<group>"; };
+		03D0E49B1C58845C00B1D0AE /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		03D2246E1C55C9A6008B0C59 /* MyWallpaper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyWallpaper-Bridging-Header.h"; sourceTree = "<group>"; };
+		03E658E91C7717AA001C0CFA /* FeaturesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturesController.swift; sourceTree = "<group>"; };
+		03E658EB1C7717AA001C0CFA /* CategoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		03E658EC1C7717AA001C0CFA /* TodayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayController.swift; sourceTree = "<group>"; };
+		03E658F11C7718C0001C0CFA /* PictrueListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictrueListModel.swift; sourceTree = "<group>"; };
+		03FCE3071C4F39D9009A7704 /* MyWallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FCE30A1C4F39D9009A7704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03FCE3111C4F39D9009A7704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03FCE3141C4F39D9009A7704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03FCE3161C4F39D9009A7704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FCE31B1C4F39D9009A7704 /* MyWallpaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWallpaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FCE31F1C4F39D9009A7704 /* MyWallpaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWallpaperTests.swift; sourceTree = "<group>"; };
+		03FCE3211C4F39D9009A7704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FCE3261C4F39DA009A7704 /* MyWallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWallpaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FCE32A1C4F39DA009A7704 /* MyWallpaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWallpaperUITests.swift; sourceTree = "<group>"; };
+		03FCE32C1C4F39DA009A7704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486B3958E8A5A0B5DAAB1168 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9A33C3986917DB5D30457A12 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32EABE6871FBBBDDFC871B5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03FCE3041C4F39D9009A7704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0359BDE11C52308000172352 /* Alamofire.framework in Frameworks */,
+				ADA579D144D67361F846F0B9 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FCE3181C4F39D9009A7704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FCE3231C4F39DA009A7704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0369A0971C52005A00373A74 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				034F90F31C819C4900363C76 /* Define.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		038F2BCA1C5769A1002DA6DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				038F2BCB1C5769F9002DA6DF /* CategoryModel.swift */,
+				03D0E4991C58829000B1D0AE /* FeatureModel.swift */,
+				03E658F11C7718C0001C0CFA /* PictrueListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03D224671C55C539008B0C59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				031DB4FA1C7BF5C6004CB452 /* TodayCell.swift */,
+				03D0E49B1C58845C00B1D0AE /* MainCell.swift */,
+				0368D7EE1C7D5805002D2CCB /* CategoryCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		03FCE2FE1C4F39D9009A7704 = {
+			isa = PBXGroup;
+			children = (
+				03FCE3091C4F39D9009A7704 /* MyWallpaper */,
+				03FCE31E1C4F39D9009A7704 /* MyWallpaperTests */,
+				03FCE3291C4F39DA009A7704 /* MyWallpaperUITests */,
+				03FCE3081C4F39D9009A7704 /* Products */,
+				5FF0F45C267E240231A92BE7 /* Pods */,
+				8489B18426E763476736CDD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03FCE3081C4F39D9009A7704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03FCE3071C4F39D9009A7704 /* MyWallpaper.app */,
+				03FCE31B1C4F39D9009A7704 /* MyWallpaperTests.xctest */,
+				03FCE3261C4F39DA009A7704 /* MyWallpaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03FCE3091C4F39D9009A7704 /* MyWallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				03FCE30A1C4F39D9009A7704 /* AppDelegate.swift */,
+				038F2BCA1C5769A1002DA6DF /* Model */,
+				0369A0971C52005A00373A74 /* Util */,
+				03FCE3421C4F66FE009A7704 /* Controllers */,
+				03D224671C55C539008B0C59 /* Views */,
+				03FCE3111C4F39D9009A7704 /* Assets.xcassets */,
+				03FCE3131C4F39D9009A7704 /* LaunchScreen.storyboard */,
+				03FCE3161C4F39D9009A7704 /* Info.plist */,
+				03D2246E1C55C9A6008B0C59 /* MyWallpaper-Bridging-Header.h */,
+			);
+			path = MyWallpaper;
+			sourceTree = "<group>";
+		};
+		03FCE31E1C4F39D9009A7704 /* MyWallpaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				03FCE31F1C4F39D9009A7704 /* MyWallpaperTests.swift */,
+				03FCE3211C4F39D9009A7704 /* Info.plist */,
+			);
+			path = MyWallpaperTests;
+			sourceTree = "<group>";
+		};
+		03FCE3291C4F39DA009A7704 /* MyWallpaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03FCE32A1C4F39DA009A7704 /* MyWallpaperUITests.swift */,
+				03FCE32C1C4F39DA009A7704 /* Info.plist */,
+			);
+			path = MyWallpaperUITests;
+			sourceTree = "<group>";
+		};
+		03FCE3421C4F66FE009A7704 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03E658EC1C7717AA001C0CFA /* TodayController.swift */,
+				03E658E91C7717AA001C0CFA /* FeaturesController.swift */,
+				03E658EB1C7717AA001C0CFA /* CategoryController.swift */,
+				0369A1491C5206C900373A74 /* PictrueViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5FF0F45C267E240231A92BE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F32EABE6871FBBBDDFC871B5 /* Pods.debug.xcconfig */,
+				486B3958E8A5A0B5DAAB1168 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8489B18426E763476736CDD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0359BDE01C52308000172352 /* Alamofire.framework */,
+				9A33C3986917DB5D30457A12 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03FCE3061C4F39D9009A7704 /* MyWallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FCE32F1C4F39DA009A7704 /* Build configuration list for PBXNativeTarget "MyWallpaper" */;
+			buildPhases = (
+				957A32DD8F625EAD78A501F4 /* Check Pods Manifest.lock */,
+				03FCE3031C4F39D9009A7704 /* Sources */,
+				03FCE3041C4F39D9009A7704 /* Frameworks */,
+				03FCE3051C4F39D9009A7704 /* Resources */,
+				0359BCB51C5223D000172352 /* Embed Frameworks */,
+				657D8129CE7107BDF9FF234A /* Embed Pods Frameworks */,
+				7F284F5E353ACE75A3770019 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWallpaper;
+			productName = MyWallpaper;
+			productReference = 03FCE3071C4F39D9009A7704 /* MyWallpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03FCE31A1C4F39D9009A7704 /* MyWallpaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FCE3321C4F39DA009A7704 /* Build configuration list for PBXNativeTarget "MyWallpaperTests" */;
+			buildPhases = (
+				03FCE3171C4F39D9009A7704 /* Sources */,
+				03FCE3181C4F39D9009A7704 /* Frameworks */,
+				03FCE3191C4F39D9009A7704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03FCE31D1C4F39D9009A7704 /* PBXTargetDependency */,
+			);
+			name = MyWallpaperTests;
+			productName = MyWallpaperTests;
+			productReference = 03FCE31B1C4F39D9009A7704 /* MyWallpaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03FCE3251C4F39DA009A7704 /* MyWallpaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FCE3351C4F39DA009A7704 /* Build configuration list for PBXNativeTarget "MyWallpaperUITests" */;
+			buildPhases = (
+				03FCE3221C4F39DA009A7704 /* Sources */,
+				03FCE3231C4F39DA009A7704 /* Frameworks */,
+				03FCE3241C4F39DA009A7704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03FCE3281C4F39DA009A7704 /* PBXTargetDependency */,
+			);
+			name = MyWallpaperUITests;
+			productName = MyWallpaperUITests;
+			productReference = 03FCE3261C4F39DA009A7704 /* MyWallpaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03FCE2FF1C4F39D9009A7704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "宋国华";
+				TargetAttributes = {
+					03FCE3061C4F39D9009A7704 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WPXQYZSK2Q;
+					};
+					03FCE31A1C4F39D9009A7704 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 03FCE3061C4F39D9009A7704;
+					};
+					03FCE3251C4F39DA009A7704 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 03FCE3061C4F39D9009A7704;
+					};
+				};
+			};
+			buildConfigurationList = 03FCE3021C4F39D9009A7704 /* Build configuration list for PBXProject "MyWallpaper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03FCE2FE1C4F39D9009A7704;
+			productRefGroup = 03FCE3081C4F39D9009A7704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03FCE3061C4F39D9009A7704 /* MyWallpaper */,
+				03FCE31A1C4F39D9009A7704 /* MyWallpaperTests */,
+				03FCE3251C4F39DA009A7704 /* MyWallpaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03FCE3051C4F39D9009A7704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FCE3151C4F39D9009A7704 /* LaunchScreen.storyboard in Resources */,
+				03FCE3121C4F39D9009A7704 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FCE3191C4F39D9009A7704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FCE3241C4F39DA009A7704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		657D8129CE7107BDF9FF234A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F284F5E353ACE75A3770019 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		957A32DD8F625EAD78A501F4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03FCE3031C4F39D9009A7704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0368D7EF1C7D5805002D2CCB /* CategoryCell.swift in Sources */,
+				03D0E49A1C58829000B1D0AE /* FeatureModel.swift in Sources */,
+				03E658ED1C7717AA001C0CFA /* FeaturesController.swift in Sources */,
+				038F2BCC1C5769F9002DA6DF /* CategoryModel.swift in Sources */,
+				0369A14A1C5206C900373A74 /* PictrueViewController.swift in Sources */,
+				03E658F01C7717AA001C0CFA /* TodayController.swift in Sources */,
+				03E658F21C7718C0001C0CFA /* PictrueListModel.swift in Sources */,
+				03FCE30B1C4F39D9009A7704 /* AppDelegate.swift in Sources */,
+				03E658EF1C7717AA001C0CFA /* CategoryController.swift in Sources */,
+				034F90F41C819C4900363C76 /* Define.swift in Sources */,
+				03D0E49C1C58845C00B1D0AE /* MainCell.swift in Sources */,
+				031DB4FB1C7BF5C6004CB452 /* TodayCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FCE3171C4F39D9009A7704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FCE3201C4F39D9009A7704 /* MyWallpaperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FCE3221C4F39DA009A7704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FCE32B1C4F39DA009A7704 /* MyWallpaperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03FCE31D1C4F39D9009A7704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03FCE3061C4F39D9009A7704 /* MyWallpaper */;
+			targetProxy = 03FCE31C1C4F39D9009A7704 /* PBXContainerItemProxy */;
+		};
+		03FCE3281C4F39DA009A7704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03FCE3061C4F39D9009A7704 /* MyWallpaper */;
+			targetProxy = 03FCE3271C4F39DA009A7704 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03FCE3131C4F39D9009A7704 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FCE3141C4F39D9009A7704 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03FCE32D1C4F39DA009A7704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03FCE32E1C4F39DA009A7704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03FCE3301C4F39DA009A7704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F32EABE6871FBBBDDFC871B5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = MyWallpaper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.song.MyWallpapers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyWallpaper/MyWallpaper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03FCE3311C4F39DA009A7704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486B3958E8A5A0B5DAAB1168 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = MyWallpaper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.song.MyWallpapers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyWallpaper/MyWallpaper-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		03FCE3331C4F39DA009A7704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyWallpaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.song.MyWallpaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWallpaper.app/MyWallpaper";
+			};
+			name = Debug;
+		};
+		03FCE3341C4F39DA009A7704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyWallpaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.song.MyWallpaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWallpaper.app/MyWallpaper";
+			};
+			name = Release;
+		};
+		03FCE3361C4F39DA009A7704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyWallpaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.song.MyWallpaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyWallpaper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		03FCE3371C4F39DA009A7704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyWallpaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.song.MyWallpaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyWallpaper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FCE3021C4F39D9009A7704 /* Build configuration list for PBXProject "MyWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FCE32D1C4F39DA009A7704 /* Debug */,
+				03FCE32E1C4F39DA009A7704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FCE32F1C4F39DA009A7704 /* Build configuration list for PBXNativeTarget "MyWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FCE3301C4F39DA009A7704 /* Debug */,
+				03FCE3311C4F39DA009A7704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FCE3321C4F39DA009A7704 /* Build configuration list for PBXNativeTarget "MyWallpaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FCE3331C4F39DA009A7704 /* Debug */,
+				03FCE3341C4F39DA009A7704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FCE3351C4F39DA009A7704 /* Build configuration list for PBXNativeTarget "MyWallpaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FCE3361C4F39DA009A7704 /* Debug */,
+				03FCE3371C4F39DA009A7704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03FCE2FF1C4F39D9009A7704 /* Project object */;
+}
