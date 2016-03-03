@@ -223,7 +223,6 @@ extension PictrueViewController: UICollectionViewDataSource {
         // 获取设计的单元格，不需要再动态添加界面元素
         let cell = self.pictrueCollectionView.dequeueReusableCellWithReuseIdentifier(
             identify, forIndexPath: indexPath) as UICollectionViewCell
-        
         // initmodel
         let cellModel :PictrueListModel = self.dataArray.objectAtIndex(indexPath.row) as! PictrueListModel
         
@@ -232,7 +231,8 @@ extension PictrueViewController: UICollectionViewDataSource {
         img.contentMode = UIViewContentMode.ScaleAspectFill
         img.clipsToBounds = true
         img.sd_setImageWithURL(NSURL.init(string: cellModel.thumb_hd as String), placeholderImage: nil)
-        cell.contentView.addSubview(img)
+//        cell.contentView.addSubview(img)
+        cell.backgroundView = img
         return cell
     }
 
