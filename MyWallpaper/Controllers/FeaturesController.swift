@@ -50,7 +50,8 @@ class FeaturesController: UIViewController {
 		prepareView()
 		prepareItems()
 		prepareTableView()
-        self.tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: #selector(FeaturesController.callMeHeader))
+//        self.tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: Selector("FeaturesController.callMeHeader"))
+        self.tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: Selector("callMeHeader"))
         self.tableView.mj_header.beginRefreshing()
     }
     

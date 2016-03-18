@@ -61,9 +61,9 @@ class TodayController: UIViewController {
         tableView.translatesAutoresizingMaskIntoConstraints = false
         MaterialLayout.alignToParent(view, child: tableView, top: 0)
         
-        self.tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: #selector(TodayController.callMeHeader))
+        self.tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: Selector("callMeHeader"))
         self.tableView.mj_header.beginRefreshing()
-        self.tableView.mj_footer = MJRefreshAutoNormalFooter(refreshingTarget:self, refreshingAction:#selector(TodayController.callMeFooter))
+        self.tableView.mj_footer = MJRefreshAutoNormalFooter(refreshingTarget:self, refreshingAction:Selector("callMeFooter"))
     }
 
     

@@ -37,9 +37,9 @@ class PictrueViewController: UIViewController {
         prepareCollectionView()
         if (self.urlString != nil) {
             self.pageNum = 1
-            self.pictrueCollectionView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: #selector(PictrueViewController.callMeHeader))
+            self.pictrueCollectionView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: Selector("callMeHeader"))
             self.pictrueCollectionView.mj_header.beginRefreshing()
-            self.pictrueCollectionView.mj_footer = MJRefreshAutoNormalFooter(refreshingTarget:self, refreshingAction:#selector(PictrueViewController.callMeFooter))
+            self.pictrueCollectionView.mj_footer = MJRefreshAutoNormalFooter(refreshingTarget:self, refreshingAction:Selector("callMeFooter"))
         }
         if self.albumsArr.count > 0 {
             loadModelData(self.albumsArr)

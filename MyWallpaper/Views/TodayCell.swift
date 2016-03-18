@@ -21,8 +21,6 @@ class TodayCell: MaterialTableViewCell {
     private let pictrueHeight:CGFloat = (UIScreen.mainScreen().bounds.size.width - 60)*2/3
     private let labelWidth:CGFloat = UIScreen.mainScreen().bounds.size.width - (UIScreen.mainScreen().bounds.size.width - 60)/2 - 60
     private let cellHeight:CGFloat = UIScreen.mainScreen().bounds.height/3
-  
-
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -46,12 +44,13 @@ class TodayCell: MaterialTableViewCell {
             MaterialLayout.alignFromTopLeft(self, child: pictrueView, top: 5, left: 40 + labelWidth)
             MaterialLayout.size(self, child: pictrueView, width: pictrueWidth, height: pictrueHeight)
         }
+        
         if cellLine == nil {
             cellLine = UIView.init()
             cellLine.backgroundColor = MaterialColor.grey.base
             self.addSubview(cellLine)
             cellLine.translatesAutoresizingMaskIntoConstraints = false
-            MaterialLayout.alignFromTopLeft(self, child: cellLine, top: cellHeight-1, left: 20 )
+            MaterialLayout.alignFromTopLeft(self, child: cellLine, top: cellHeight-1, left: 20)
             MaterialLayout.size(self, child: cellLine, width: Define.screenWidth()-20, height: 0.5)
         }
     }
