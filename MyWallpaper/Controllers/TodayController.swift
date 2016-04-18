@@ -262,10 +262,8 @@ extension TodayController: UITableViewDataSource {
     
     //didDeselectRowAtIndexPath
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    
         
         self.photos.removeAllObjects()
-
         let item: Item = items[indexPath.section]
         let photo :MWPhoto = MWPhoto.init(URL: NSURL.init(string: item.cover_hd_568h as String))
         photo.caption =  item.content as String
@@ -275,7 +273,6 @@ extension TodayController: UITableViewDataSource {
         browser.title = item.title as String
         browser.setCurrentPhotoIndex(0)
         self.navigationController?.pushViewController(browser, animated: true)
-
     }
 }
 

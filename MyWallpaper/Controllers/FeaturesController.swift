@@ -34,7 +34,6 @@ class FeaturesController: UIViewController {
 
 	/// A tableView used to display Bond entries.
     
-    
     private var kWidth :CGFloat = UIScreen.mainScreen().bounds.width
     private let cellHeight:CGFloat = UIScreen.mainScreen().bounds.height/3
     private var kSectionHeader_height :CGFloat = 20
@@ -50,8 +49,7 @@ class FeaturesController: UIViewController {
 		prepareView()
 		prepareItems()
 		prepareTableView()
-//        self.tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: Selector("FeaturesController.callMeHeader"))
-        self.tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: Selector("callMeHeader"))
+        self.tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: #selector(FeaturesController.callMeHeader))
         self.tableView.mj_header.beginRefreshing()
     }
     
@@ -226,6 +224,7 @@ extension FeaturesController: UITableViewDataSource {
                     }
                     if index == 3 {
                         break
+                        
                     }
                 }
             }
@@ -239,7 +238,6 @@ extension FeaturesController: UITableViewDataSource {
         header.backgroundColor = MaterialColor.white
         
         let item: Item = items[section]
-        
         
         let label: UILabel = UILabel()
         label.font = RobotoFont.mediumWithSize(14)

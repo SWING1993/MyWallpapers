@@ -30,7 +30,7 @@ class CategoryController: UIViewController {
     
 	override func viewDidLoad() {
 		super.viewDidLoad()
-        self.tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: Selector("loadData"))
+        self.tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: #selector(CategoryController.loadData))
         self.tableView.mj_header.beginRefreshing()
 		prepareView()
 		prepareTableView()

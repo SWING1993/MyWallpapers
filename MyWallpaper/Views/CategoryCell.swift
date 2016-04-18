@@ -42,7 +42,6 @@ class CategoryCell: MaterialTableViewCell {
 
             self.addSubview(titleLabel)
             titleLabel.translatesAutoresizingMaskIntoConstraints = false
-
             MaterialLayout.alignFromBottomLeft(self, child: titleLabel, bottom: 15, left: 70)
             MaterialLayout.size(self, child: titleLabel, width: labelWidth, height: labelHeight)
             
@@ -56,7 +55,6 @@ class CategoryCell: MaterialTableViewCell {
 
             self.addSubview(nameLabel)
             nameLabel.translatesAutoresizingMaskIntoConstraints = false
-
             MaterialLayout.alignFromBottomLeft(self, child: nameLabel, bottom: 15 + labelHeight, left: 70)
             MaterialLayout.size(self, child: nameLabel, width: labelWidth, height: labelHeight)
         }
